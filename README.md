@@ -2,11 +2,11 @@
 Reports real-time pollutant levels in your city
 
 ## About
-Get real-time air quality data for more than 1000 cities from the world air quality index  project. by default, mycroft reports real-time pm 2.5 concentration levels from a monitoring station closest to you.
+Get real-time air quality data for more than 1000 cities from the World Air Quality Index project. By default, mycroft reports real-time pm 2.5 concentration levels from a monitoring station closest to you.
 
-you can also ask mycroft for pm 10, o3 (ozone), no2 (nitrogen dioxide), and so2 (sulphur dioxide) levels at your location or in other cities.
+You can also ask mycroft for pm 10, o3 (ozone), no2 (nitrogen dioxide), and so2 (sulphur dioxide) levels at your location or in other cities.
 
-all pollutant levels are reported for the previous hour and are measured in micrograms per cubic meter.
+All pollutant levels are reported for the previous hour and are measured in micrograms per cubic meter.
 
 ## Examples
 * "How is the air quality"
