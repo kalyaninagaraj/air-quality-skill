@@ -18,7 +18,7 @@ Mycroft will also report the time of the reading. All pollutant levels are measu
 * "What's the P M 2.5 level in New Delhi?"
 
 ## Credits
-@kalyaninagaraj
+Kalyani Nagaraj
 
 ## Category
 **Daily**
