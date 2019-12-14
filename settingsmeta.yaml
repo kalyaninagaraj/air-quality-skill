@@ -4,7 +4,7 @@ skillMetadata:
     - name: API Key
       fields:
         - type: label
-          label: The Air Quality skill requires an API key. <a href='https://aqicn.org/data-platform/token/#/'>Fill a form</a> to request a token from the <a href='https://waqi.info/'>World Air Quality Project</a>.
+          label: The Air Quality skill requires an API key. <a href='https://aqicn.org/data-platform/token/#/'>Fill a form</a> to request a token from the <a href='https://waqi.info/'>World Air Quality Index</a> project.
         - name: APIKey
           type: text
           label: Enter API key
