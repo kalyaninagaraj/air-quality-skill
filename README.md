@@ -10,6 +10,8 @@ You can also ask Mycroft for PM 10, O<sub>3</sub> (ozone), NO<sub>2</sub> (nitro
 
 Mycroft will also report the time of the reading. All pollutant levels are measured in micrograms per cubic meter.
 
+The Air Quality skill requires an API key from the World Air Quality Index project team. Visit skill settings in your Mycroft account for instructions. Terms of acceptable data and API usage apply.  
+
 ## Examples
 * "What is the air quality?"
 * "How polluted is the air in Singapore?"

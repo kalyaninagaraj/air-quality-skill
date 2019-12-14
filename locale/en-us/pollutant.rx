@@ -1,1 +1,1 @@
-.* (?P<pollutant>.*) level in .*
+What is the (?P<pollutant>.*) level in .*
