@@ -1,0 +1,1 @@
+The timezone is {{timezone}}. The time now is {{now_time}}. UTC is {{utc_time}}. The reading was made at {{rec_time}}. Time difference is {{timediff}}.
