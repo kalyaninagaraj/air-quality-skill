@@ -1,2 +1,0 @@
-.* (air quality|level|air|atmosphere) in (?P<place>.*) 
-How polluted is (?P<place>.*)
