@@ -14,7 +14,7 @@ dioxide), and SO<sub>2</sub> (sulphur dioxide) levels at your
 location or in other cities. Mycroft will also report how long 
 back the reading was taken if the measurements were made more 
 than two hour ago, and a health cautionary statement (only for 
-PM 2.5 concentration levels. All pollutant levels are measured 
+PM 2.5 concentration levels). All pollutant levels are measured 
 in micrograms per cubic meter.
 
 The Air Quality skill requires an API key to access data from 
