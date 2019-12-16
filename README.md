@@ -8,7 +8,7 @@ the [World Air Quality Index](https://aqicn.org/) project.
 By default, Mycroft reports **real-time** (most recent, 
 1-hour average) PM 2.5 (fine particulate matter) concentration 
 levels at a monitoring station in your city. You can also ask 
-Mycroft for PM 10 (course particulate matter), CO (carbon 
+Mycroft for PM 10 (coarse particulate matter), CO (carbon 
 monoxode), O<sub>3</sub> (ozone), NO<sub>2</sub> (nitrogen 
 dioxide), and SO<sub>2</sub> (sulphur dioxide) levels at your 
 location or in other cities. Mycroft will also report how long 
@@ -26,8 +26,8 @@ Terms of acceptable data and API usage apply.
 * "What is the air quality?"
 * "How polluted is the air in Singapore?"
 * "What is the sulphur dioxide level in Hong Kong?"
-* "What's the fine particlate matter level in Dublin?"
-* "What's the pm 10 level in New Delhi?"
+* "What's the ozone level in Dublin?"
+* "What's the coarse particulate matter level in New Delhi?"
 
 ## Credits
 Kalyani Nagaraj (@kalyaninagaraj)
