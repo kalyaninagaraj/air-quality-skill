@@ -1,4 +1,4 @@
-from mycroft import MycroftSkill, intent_file_handler
+from mycroft import MycroftSkill, intent_handler, intent_file_handler
 from mycroft.configuration.config import Configuration
 from mycroft.util.time import now_utc, to_utc
 from datetime import datetime
@@ -6,8 +6,6 @@ import requests
 import json
 
 lookup = {
-    '2.5'    : 'pm 2.5',
-    '10'     : 'pm 10',
     'pm 2.5' : 'pm25',
     'pm 10'  : 'pm10',
     'pm2.5'    : 'pm25',
@@ -17,15 +15,12 @@ lookup = {
     'particle pollution'     : 'pm25',
     'pollution': 'pm25',
     'pollutant': 'pm25',
-    'ozone'    : 'o3',
     'nitrogen dioxide' : 'no2',
     'sulphur dioxide'  : 'so2',
     'carbon monoxide'  : 'co'
 }
 
 nice_name = {
-    '2.5'    : 'pm 2.5',
-    '10'     : 'pm 10',
     'pm2.5'  : 'pm 2.5',
     'pm 2.5' : 'pm 2.5',
     'pm10'   : 'pm 10',
@@ -34,7 +29,6 @@ nice_name = {
     'particle pollution'     : 'pm 2.5',
     'pollution' : 'pm 2.5',
     'pollutant' : 'pm 2.5',
-    'ozone'     : 'ozone',
     'nitrogen dioxide' : 'nitrogen dioxide',
     'sulphur dioxide'  : 'sulphur dioxide',
     'carbon monoxide'  : 'carbon monoxide'
@@ -100,8 +94,9 @@ class AirQuality(MycroftSkill):
         else:
             self.speak('Health warning and emergency conditions: the entire population is more likely to be affected by serious health effects.')
 
-    # Uses Padatious Intent Handler
-    @intent_handler('how.polluted.is.intent')
+
+    # Pollutant is not mentioned, PM2.5 implied
+    @intent_handler('how.polluted.intent')
     def handle_how_polluted(self, message):
         if message.data.get('place') is not None:
             city = message.data.get('place')
@@ -111,7 +106,8 @@ class AirQuality(MycroftSkill):
         pollutant = 'pm 2.5'
         self.waqi_query_and_report(city, pollutant)
 
-    # Uses Padatious Intent Handler
+
+    # Pollutant is mentioned
     @intent_handler('what.is.pollutant.level.intent')
     def handle_what_is_pollutant_level(self, message):
         if message.data.get('pollutant') is not None:
