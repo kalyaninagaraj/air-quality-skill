@@ -1,5 +1,5 @@
 # <img src="https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/smog.svg" card_color="#6C7A89" width="50" height="50" style="vertical-align:bottom"/> Air Quality
-Reports real-time pollutant levels in your city
+Mycroft reports real-time pollutant levels in your city.
 
 ## About
 Get real-time air quality data for more than 1000 cities from 
@@ -46,3 +46,4 @@ Information
 ## Tags
 #Air quality
 #Pollutant level
+#Mycroft AI
