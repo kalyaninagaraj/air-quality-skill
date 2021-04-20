@@ -37,7 +37,7 @@ levels measured in micrograms per cubic meter.
 * "What's the PM 10 level in Portland?"
 
 ## Credits
-Kalyani Nagaraj
+[@kalyaninagaraj](https://github.com/kalyaninagaraj)
 
 ## Category
 **Daily**
