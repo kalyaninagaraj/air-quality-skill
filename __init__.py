@@ -1,3 +1,14 @@
+"""
+About
+-----
+Mycroft reports real-time pollutant levels in your city.
+
+Author
+------
+Kalyani Nagaraj
+Dec 2019
+"""
+
 from mycroft import MycroftSkill, intent_handler, intent_file_handler
 from mycroft.configuration.config import Configuration
 from mycroft.util.time import now_utc, to_utc
